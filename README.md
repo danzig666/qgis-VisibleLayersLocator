@@ -20,3 +20,6 @@ Compatible with **QGIS 3.4+ (Qt5)** and **QGIS 4.x (Qt6)**.
 - A layer is "effectively visible" when it and all of its parent groups are checked.
 - The layer tree is snapshotted on the main thread (`prepare()`), and matching runs in the locator's worker thread.
 - Tested headless on QGIS 3.4, 3.10, 3.14, 3.26, 3.40, 3.44 and 4.2.
+
+## License
+GNU General Public License v2.0 or later — see [LICENSE](LICENSE).
