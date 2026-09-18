@@ -1,0 +1,19 @@
+[general]
+name=Visible Layers Locator
+qgisMinimumVersion=3.4
+qgisMaximumVersion=4.99
+supportsQt6=True
+description=Locator filter (prefix: 'vls') to search among effectively visible layers in the current project.
+version=1.1.0
+author=Abel Koszeghy
+email=abelke@gmail.com
+about=Adds a Locator bar filter that searches only layers that are effectively visible in the Layers panel (the layer and all parent groups checked). Selecting a result selects the layer in the Layers panel. Works with QGIS 3 (Qt5) and QGIS 4 (Qt6).
+tags=locator,search,layers,visible
+category=Plugins
+experimental=False
+homepage=https://github.com/danzig666/qgis-VisibleLayersLocator
+repository=https://github.com/danzig666/qgis-VisibleLayersLocator
+tracker=https://github.com/danzig666/qgis-VisibleLayersLocator/issues
+changelog=
+    1.1.0 - QGIS 4 / Qt6 support; layer tree is read on the main thread; fixed docs to match 'vls' prefix
+    1.0.0 - Initial release
